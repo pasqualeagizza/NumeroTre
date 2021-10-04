@@ -7,6 +7,8 @@ import { ContainerComponent } from './container/container.component';
 import { CardViewComponent } from './card-view/card-view.component';
 import { ListViewComponent } from './list-view/list-view.component';
 import { NewUsersComponent } from './new-users/new-users.component';
+import { RouterModule } from '@angular/router';
+import { AppRoutingModule } from './app.routing.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { NewUsersComponent } from './new-users/new-users.component';
     NewUsersComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
