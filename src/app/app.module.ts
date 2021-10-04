@@ -6,6 +6,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ContainerComponent } from './container/container.component';
 import { CardViewComponent } from './card-view/card-view.component';
 import { ListViewComponent } from './list-view/list-view.component';
+import { NewUsersComponent } from './new-users/new-users.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ListViewComponent } from './list-view/list-view.component';
     NavbarComponent,
     ContainerComponent,
     CardViewComponent,
-    ListViewComponent
+    ListViewComponent,
+    NewUsersComponent
   ],
   imports: [
     BrowserModule
