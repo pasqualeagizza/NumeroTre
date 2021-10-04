@@ -5,6 +5,7 @@ import { ListViewComponent } from "./list-view/list-view.component";
 import { NewUsersComponent } from "./new-users/new-users.component";
 
 const routes: Routes = [
+    { path: '', component: CardViewComponent},
     { path: 'card-view', component: CardViewComponent },
     { path: 'list-view', component: ListViewComponent },
     { path: 'new-users', component: NewUsersComponent },
